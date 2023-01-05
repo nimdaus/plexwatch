@@ -39,4 +39,4 @@ while True:
                 except Exception as e:
                     print(e)
                     pass
-    time.sleep(os.getenv("INTERVAL"))
+    time.sleep(int(os.getenv("INTERVAL")))
